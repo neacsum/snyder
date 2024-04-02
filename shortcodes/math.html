@@ -1,0 +1,8 @@
+{{ if (.Get "tag") }} <a name="{{ .Get "tag" }}"></a> {{ end }}
+{{ if (.Get "div") }}
+  <div id="{{ .Get "div" }}">$$ {{ .Inner | safeHTML}} {{ if (.Get "tag") }} \tag{ {{ .Get "tag" }} } {{ end }} $$</div>
+{{ else if (.Get "span") }} 
+  <span id="{{ .Get "span" }}">$ {{ .Inner | safeHTML}} $</span>
+{{ else }}
+  <div>$$ {{ .Inner | safeHTML}} {{ if (.Get "tag") }} \tag{ {{ .Get "tag" }} } {{ end }} $$</div>
+{{ end }}

@@ -1,0 +1,8 @@
+<!-- insert raw HTML code -->
+{{ if (.Get "file") }}
+  {{ $base_path := $.Page.File.Dir }}
+  {{ $file_path := (.Get "file") }}
+  {{ readFile (path.Join $base_path $file_path) | safeHTML }}
+{{ else }}
+  {{ .Inner | safeHTML }}
+{{ end }}

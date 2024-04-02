@@ -1,0 +1,9 @@
+<script>
+  {{if (.Get "src")}}
+    {{ $base_path := $.Page.File.Dir }}
+    {{ $file_path := (.Get "src") }}
+    {{ readFile (path.Join $base_path $file_path) | safeJS }}
+  {{ else }}
+    {{ .Inner | safeJS }}
+  {{ end }}
+</script>

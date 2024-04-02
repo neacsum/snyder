@@ -1,0 +1,2 @@
+{{ $anchor := printf "%s%s" "#" (.Get 0) }}
+[({{ .Get 0 }})]({{relref . $anchor}})
