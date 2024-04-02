@@ -1,0 +1,12 @@
+table#params.markdown {
+  background: initial;
+}
+.markdown table tr th, .markdown table tr td {
+  border: 0;
+}
+.markdown table tr td {
+  padding-right: 0;
+}
+.markdown table tr:nth-child(2n) {
+  background: initial;
+}
