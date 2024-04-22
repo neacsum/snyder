@@ -24,7 +24,7 @@ var sph = {
         &= ${fmt(x, true)}\\;\\text{units}
     }`
     MathJax.Hub.getAllJax("x_sph")[0].Text(jax);
-    document.getElementById("x_sph_in").value = fmt(y,true);
+    document.getElementById("x_sph_in").value = fmt(x,true);
 
     const y = r*k*(Math.cos(phi1)*Math.sin(phi)-Math.sin(phi1)*Math.cos(phi)*Math.cos(lam-lam0));
     jax = `\\eqalign{
