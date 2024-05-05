@@ -31,20 +31,20 @@ Another term occasionally used in practical map projection analysis is "converge
 The formulas for distortion are simplest when applied to regular cylindrical, conic (or conical), and polar azimuthal projections of the sphere. On each of these types of projections, scale is solely a function of the latitude.
 
 Given the formulas for rectangular coordinates x and y of any cylindrical projection as functions solely of longitude $\lambda$ and latitude $\phi$, respectively,
-{{<math tag="4-2">}} h = \mathrm{d}y/(R\mathrm{d}\phi) {{</math>}}
-{{<math tag="4-3">}} k = \mathrm{d}x/(R\cos{\phi}\mathrm{d}\lambda) {{</math>}}
+{{<math tag="4-2">}} \require{physics} h = \dd y/(R\dd\phi) {{</math>}}
+{{<math tag="4-3">}} k = \dd x/(R\cos{\phi}\dd\lambda) {{</math>}}
 Given the formulas for polar coordinates $\rho$ and $\theta$ of any conic projection as functions solely of $\phi$ and $\lambda$, respectively, where $n$ is the cone constant or ratio of $\theta$ to $(\lambda - \lambda_0)$,
-{{<math tag="4-4">}} h = -\mathrm{d}\rho/(R\mathrm{d}\phi) {{</math>}}
+{{<math tag="4-4">}} h = -\dd\rho/(R\dd\phi) {{</math>}}
 {{<math tag="4-5">}} k = n\rho/(R\cos{\phi}) {{</math>}}
     {{<figure src="../figure4.png" link="../figure4.png">}}
     {{<figure src="../figure4-a.png" link="../figure4-a.png">}}
     {{<figure src="../figure4-b.png" link="../figure4-b.png" caption="__FIGURE 4__.&mdash; Distortion patterns on common conformal map projections. The Transverse Mercator and the Stereographic are shown with reduction in scale along the central meridian or at the center of projection, respectively. If there is no reduction, there is a single line of true scale along the central meridian on the Transverse Mercator and only a point of true scale at the center of the Stereographic. The illustrations are conceptual rather than precise, since each base map projection is an identical conic." >}}
 
 Given the formulas for polar coordinates $\rho$ and $\theta$ of any polar azimuthal projection as functions solely of $\phi$ and $\lambda$, respectively, equations [(4-4)](#4-4) and [(4-5)](#4-5) apply, with $n$ equal to 1.0:
-$$ h = -\mathrm{d}\rho/(R\mathrm{d}\phi) \tag{4-4} $$
+$$ h = -\dd \rho/(R\dd\phi) \tag{4-4} $$
 {{<math tag="4-6">}} k = \rho/(R\cos{\phi}) {{</math>}}
 Equations [(4-4)](#4-4) and [(4-6)](#4-6) may be adapted to any azimuthal projection centered on a point other than the pole. In this case $h'$ is the scale factor in the direction of a straight line radiating from the center, and $k'$ is the scale factor in a direction perpendicular to the radiating line, all at an angular distance $c$ from the center:
-{{<math tag="4-7">}} h' = \mathrm{d}\rho/(R\mathrm{d}c) {{</math>}}
+{{<math tag="4-7">}} h' = \dd\rho/(R\dd c) {{</math>}}
 {{<math tag="4-8">}} k' = \rho/(R\sin{c}) {{</math>}}
 
 An analogous relationship applies to scale factors on oblique cylindrical and conic projections.
@@ -70,11 +70,10 @@ The areal scale factor $s$:
 For special cases:  
 (1) $s = h k$ if meridians and parallels intersect at right angles ($\theta' = 90&deg;$);  
 (2) $h = k$ and $\omega = 0$ if the map is conformal;  
-(3) $h = l/k$ on an equal-area map if meridians and parallels intersect at right angles.[^2]  
+(3) $h = 1/k$ on an equal-area map if meridians and parallels intersect at right angles.[^2]  
 
 ## DISTORTION FOR PROJECTIONS OF THE ELLIPSOID
-The derivation of the above formulas for the sphere utilizes the basic formulas for the length of a given spacing (usually l&deg; or 1 radian) along a given meridian or a
-given parallel. The following formulas give the length of a radian of latitude ($L_\phi$) and of longitude ($L_\lambda$) for the sphere:
+The derivation of the above formulas for the sphere utilizes the basic formulas for the length of a given spacing (usually 1&deg; or 1 radian) along a given meridian or a given parallel. The following formulas give the length of a radian of latitude ($L_\phi$) and of longitude ($L_\lambda$) for the sphere:
 {{<math tag="4-16">}} L_\phi = R {{</math>}}
 {{<math tag="4-17">}} L_\lambda = R \cos{\phi} {{</math>}}
 where $R$ is the radius of the sphere. For the length of 1&deg; of latitude or longitude, these values are multiplied by $\pi/180$.
@@ -94,12 +93,12 @@ The lengths of 1&deg; of latitude and 1&deg; of longitude for the Clarke 1866 an
 When these formulas are applied to equations [(4-2)](#4-2) through [(4-6)](#4-6), the values of $h$ and $k$ for the ellipsoidal forms of the projections are found to be as follows:  
 For cylindrical projections:
 {{<math tag="4-22">}} \eqalign {
-     h &= \mathrm{d}y/(R'\mathrm{d}\phi) \cr
-       &= (1-e^2\sin^2{\phi})^{3/2}\mathrm{d}y/[a(1-e^2)\mathrm{d}\phi] 
+     h &= \dd y/(R'\dd\phi) \cr
+       &= (1-e^2\sin^2{\phi})^{3/2}\dd y/[a(1-e^2)\dd\phi] 
    }{{</math>}}
 {{<math tag="4-23">}}
    \eqalign {
-     k &= \mathrm{d}x/(N\cos{\phi}\mathrm{d}\lambda) \cr
+     k &= \dd x/(N\cos{\phi}\dd \lambda) \cr
        &= (1-e^2\sin^2{\phi})^{1/2}\mathrm{d}x/(a\cos{\phi}\mathrm{d}\lambda)
    }{{</math>}}
 

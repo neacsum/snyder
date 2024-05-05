@@ -9,6 +9,10 @@ lastmod: 2024-03-09
 ---
 # Editorial Notes
 
+## Transformation of Map Graticules
+<a name="map_grat1"></a>
+<u>Note 1</u>: Snyder text refers to $\phi_1$ although the figure (Figure 5) shows $\phi_0$[&#x21a9;&#xfe0e;]({{<relref "sect_5#noteref1">}})
+
 ## Auxiliary latitudes
 <a name="aux_lat1"></a>
 <u>Note 1</u>: Snyder shows value $39.762435^\circ$.[&#x21a9;&#xfe0e;]({{<relref "numerics/aux_lat#noteref1">}})

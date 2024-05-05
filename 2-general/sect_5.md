@@ -22,7 +22,7 @@ while by the Law of Cosines,
 {{<math tag="5-2">}}\cos c = \cos b \cos a + \sin b \sin a \sin C {{</math>}}
 {{<figure src="../figure5.png" link="../figure5.png" caption="__FIGURE 5__.&mdash; Spherical triangle.">}}
 
-If C is placed at the North Pole, it becomes the angle between two meridians extending to A and B. If A is taken as the starting point on the sphere, and B the second point, c is the great circle distance between them, and angle A is the azimuth _Az_ east of north which point B bears to point A. When latitude &#x03D5;<sub>1</sub>, and longitude &lambda;<sub>0</sub>, are used for point A, and &#x03D5; and &lambda; are used for point B, equation [(5-2)](#5-2) becomes the following for great circle distance:
+If C is placed at the North Pole, it becomes the angle between two meridians extending to A and B. If A is taken as the starting point on the sphere, and B the second point, c is the great circle distance between them, and angle A is the azimuth _Az_ east of north which point B bears to point A. When latitude $\phi_1$,<sup>[*1]({{<relref "notes#map_grat1">}})</sup><a name="noteref1"></a> and longitude $\lambda_0$, are used for point A, and $\phi$ and $\lambda$ are used for point B, equation [(5-2)](#5-2) becomes the following for great circle distance:
 {{<math tag="5-3">}}\cos c = \sin\phi_1\sin\phi + \cos\phi_1\cos\phi\cos{(\lambda-\lambda_0)} {{</math>}}
 
 While [(5-3)](#5-3) is the standard and simplest form of this equation, it is not accurate in practical computation for values of c very close to zero. For such cases, the equation may be rearranged as follows (Sinnott, 1984):
@@ -44,6 +44,10 @@ In order to find the latitude $\phi$ and longitude $\lambda$ at a given arc dist
 Applying these relationships to transformations, without showing some intermediate derivations, formulas [(5-7)](#5-7) through [(5-8b)](#5-8b) are obtained. To place the North Pole of the sphere at a latitude $\alpha$ on a meridian $\beta$ east of the central meridian $(\lambda'=0)$ of the basic projection (see fig. 6), the transformed latitude $\phi'$ and transformed longitude $\lambda'$ on the basic projection which correspond to latitude $\phi$ and longitude $\lambda$ of the spherical Earth may be calculated as follows, letting the central meridian to correspond with $\lambda' = \beta$:
 {{<math tag="5-7">}}\sin\phi' = \sin\alpha\sin\beta - \cos\alpha\cos\phi\cos(\lambda-\lambda_0){{</math>}}
 {{<math tag="5-8">}}\sin(\lambda'-\beta) = cos\phi\sin(\lambda-\lambda_0)/\cos\phi' {{</math>}}
+or
+{{<math tag="5-8a">}}\cos(\lambda'-\beta)=[\sin\alpha\cos\phi\cos(\lambda-\lambda_0)+\cos\alpha\sin\phi]/\cos\phi'{{</math>}}
+or
+{{<math tag="5-8b">}}\tan(\lambda'-\beta)=\cos\phi\sin(\lambda-\lambda_0)/[\sin\alpha\cos\phi\cos(\lambda-\lambda_0)+\cos\alpha\sin\phi]{{</math>}}
 Equation [(5-8b)](#5-8b) is generally preferable to [(5-8)](#5-8) or [(5-8a)](#5-8a) for the reasons stated after equation [(5-4b)](#5-4b).
 
 These are general formulas for the oblique transformation. (For azimuthal projections, $\beta$ may always be taken as zero. Other values of $\beta$ merely have the effect of rotating the X and Y axes without changing the projection.)

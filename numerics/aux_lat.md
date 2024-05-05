@@ -208,7 +208,7 @@ and <span id="qp_value">$q_p = 1.9954814$</span> as determined above:
   \end{align}
 {{</math>}}
 
-First trial:<sup>[*1]({{<ref "notes#aux_lat1">}})</sup><a name="noteref1"></a>
+First trial:<sup>[*1]({{<relref "notes#aux_lat1">}})</sup><a name="noteref1"></a>
 {{<math div="inv_beta1">}}
 \eqalign{
 \phi &= \arcsin(1.2792602/2) \cr
