@@ -184,7 +184,7 @@ U.S. Coast and Geodetic Survey Spec. Pub. 49.
 
 85. Mugnier, C.J., 1983, Review of U. S. Geol. Survey Bull. 1532: Surveying and Mapping, v. 43, no. 4, p. 417-420.
 
-86. National Academy of Sciences, 1971, North American datum: National Ocean Survey contract rept. E-53-69(N), 80 p., 7 figs.
+86. National Academy of Sciences, 1971, [North American datum: National Ocean Survey contract rept. E-53-69(N)](http://nap.nationalacademies.org/20583), 80 p., 7 figs.
 
 87. Newton, G.D., 1985, Computer programs for common map projections: U.S. Geol. Survey Bull. 1642, 33 p.
 

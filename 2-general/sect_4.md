@@ -133,6 +133,7 @@ If $h$ and $k$ are calculated for the spherical version of a map projection, the
 $h/k$ (not the same as $\omega$) multiplied by $C_s$ and the area scale factor $hk$ may be multiplied by $C_a$.
 
 Except for $C_s$ which is independent of $R/a$, $R$ must be given an arbitrary value such as $R_q$ (see equation [(3-13)]({{<ref "sect_3#3-13">}})), $R_M$ (see second sentence following equation [(3-22)]({{<ref "sect_3#3-22">}})), or another reasonable balance between the major and minor semiaxes $a$ and $b$ of the ellipsoid. Using $R_q$ and the Clarke 1866 ellipsoid, table 5 shows the magnitude of these corrections.
+<a name="table_5"></a>
 {{<figure src="../table5.png" link="../table5.png" caption="__TABLE 5__.&mdash; Ellipsoidal correction factors to apply to spherical projections based on Clarke 1866 ellipsoid">}}
 Thus, a conformal projection based on the sphere has the correct shape at the poles for the ellipsoid, but the shape is about ⅔ of 1 percent (0.00681) in error near the Equator (that is, Tissot's Indicatrix is an ellipse with minor axis about ⅔ of 1 percent shorter than the major axis at the Equator when the spherical form is compared to the ellipsoid).
 
