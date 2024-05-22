@@ -39,6 +39,6 @@ The simplest forms of the azimuthal projections are the polar aspects, in which 
 There are two principal drawbacks to the azimuthals. First, they are more difficult to construct than the cylindricals and the conics, except for the polar aspects. This drawback was more applicable, however, in the days before computers and plotters, but it is still more difficult to prepare a map having complex curves between plotted coordinates than it is to draw the entire graticule with circles and straight lines. Nevertheless, an increased use of azimuthal projections in atlases and for other published maps may be expected.
 
 Secondly, most azimuthal maps do not have standard parallels or standard meridians. Each map has only one standard point: the center (except for the Stereographic, which may have a standard circle). Thus, the azimuthals are suitable for minimizing distortion in a somewhat circular region such as Antarctica, but not for an area with predominant length in one direction.
-{{<figure src="../table21.png" link="../table21.png">}}
-{{<figure src="../table21_1.png" link="../table21_1.png">}}
-{{<figure src="../table21_2.png" link="../table21_2.png" caption="__TABLE 21__.&mdash; Comparison of major azimuthal projections: Radius, scale factors, maximum angular distortion for projection of sphere with radius 1.0, North Polar aspect">}}
+{{<figure src="table21.png" link="table21.png">}}
+{{<figure src="table21_1.png" link="table21_1.png">}}
+{{<figure src="table21_2.png" link="table21_2.png" caption="__TABLE 21__.&mdash; Comparison of major azimuthal projections: Radius, scale factors, maximum angular distortion for projection of sphere with radius 1.0, North Polar aspect">}}

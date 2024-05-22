@@ -56,4 +56,4 @@ required:
 {{<math tag="31-7">}}\phi = \arcsin[(2\theta+\sin{2\theta})/\pi]{{</math>}}
 {{<math tag="31-8">}}\lambda = \lambda_0+\pi x/(8^{1/2}R\cos\theta){{</math>}}
 If $\phi$ is ±90°, equation (31-8) is indeterminate, but $\lambda$ may be made $\lambda_0$. Table 42 lists the rectangular coordinates of the 90th meridian for a sphere of radius $(1/2^{1/2})$, to make the maximum values equal to 1.0. The $x$ coordinates for other meridians are proportional, and $y$ coordinates are constant for a given latitude.
-{{<figure src="table42.png" link="table42.png" caption="__TABLE 42__.&mdash; Mollweide projection: Rectangular coordinates for the 90th meridian">}}
+{{<figure src="../table42.png" link="../table42.png" caption="__TABLE 42__.&mdash; Mollweide projection: Rectangular coordinates for the 90th meridian">}}
