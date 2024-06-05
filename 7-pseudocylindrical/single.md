@@ -73,7 +73,7 @@ taking the sign of $y$.
 but if $X = 0$, equation (29- 19) is indeterminate. Then
 {{<math tag="29-20">}}\lambda=\lambda_0{{</math>}}
 The formulas for scale factors are quite lengthy and are not included here. Rectangular coordinates are given in table 41 for a map of the world with unit radius of the outer circle. or $R = 1/\pi$. The longitude is measured from the central meridian. Only one quadrant of the map is given, but the map is symmetrical about both X and Y axes.
-{{<figure src="../table41.png" link="table41.png" >}}
+{{<figure src="../table41.png" link="../table41.png" >}}
 {{<figure src="../table41_1.png" link="../table41_1.png" caption="__TABLE 41__.&mdash; Van der Grinten projection: Rectangular coordinates">}}
 
 ## 30. SINUSOIDAL PROJECTION
