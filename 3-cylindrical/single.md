@@ -616,7 +616,7 @@ In spite of the shape distortion in some portions of a world map, the projection
 {{<figure src="../figure17.png" link="../figure17.png" caption="__FIGURE 17__.&mdash; Oblique Cylindrical Equal-Area projection, with central oblique great circle inclined 60° to the Earth's Equator. No distortion along this central line.">}}
 
 ### FORMULAS FOR THE SPHERE
-The geometric construction of the Cylindrical Equal-Area projection has been described above. The forward formulas for the normal aspect are as follows, given $R, \phi_s,\lambda_0$, \phi and $\lambda$ to find $x$ and $y$ (see [numerical examples]({{<ref "cylea#sphere">}})):
+The geometric construction of the Cylindrical Equal-Area projection has been described above. The forward formulas for the normal aspect are as follows, given $R, \phi_s,\lambda_0,\phi$ and $\lambda$ to find $x$ and $y$ (see [numerical examples]({{<ref "cylea#sphere">}})):
 {{<math tag="10-1">}} x = R(\lambda-\lambda_0)\cos\phi_s  {{</math>}}
 {{<math tag="10-2">}} y = R\sin\phi/\cos\phi_s {{</math>}}
 {{<math tag="10-2a">}} h = \cos\phi/\cos\phi_s{{</math>}}
