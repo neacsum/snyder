@@ -252,7 +252,7 @@ var ell = {
     MathJax.Hub.getAllJax("C1")[0].Text(jax);
 
     const T1 = Math.tan(phi1)**2;
-    jax = `T_1=\\tan^2(${deg(phi1)}) = ${fmt(T1)}`
+    jax = `T_1=\\tan^2${deg(phi1)} = ${fmt(T1,true)}`
     MathJax.Hub.getAllJax("T1")[0].Text(jax);
 
     const N1=a/Math.sqrt(1-e2*Math.sin(phi1)**2);
@@ -266,7 +266,7 @@ var ell = {
     MathJax.Hub.getAllJax("R1")[0].Text(jax);
 
     const D=x/(N1*k0);
-    jax =`D=${fmt(x,false,0)}/(${fmt(N1,false,2)}\\times${fmt(k0)}) = ${fmt(D)}`;
+    jax =`D=${fmt(x,false,0)}/(${fmt(N1,false,2)}\\times${fmt(k0)}) = ${fmt(D,true)}`;
     MathJax.Hub.getAllJax("D")[0].Text(jax);
 
     const phi = phi1 -(N1*Math.tan(phi1)/R1)*(D**2/2 - (5+3*T1+10*C1-4*C1^2-9*eprime2)*D**4/24
