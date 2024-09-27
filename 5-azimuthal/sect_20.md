@@ -40,6 +40,7 @@ The oblique Orthographic projection, with its center somewhere between the Equat
 as a circle on the oblique aspect.
 
 The intersection of any given meridian and parallel is shown on an Orthographic projection at the same distance from the central meridian, regardless of whether the aspect is oblique, polar, or equatorial, provided the same central meridian and the same scale are maintained. Scale and distortion, as on all azimuthal projections, change only with the distance from the center. The center of projection has no distortion, but the outer regions are compressed, even though the scale is true along all circles drawn about the center. (These circles are not "standard" lines because the scale is true only in the direction followed by the line.)
+<a name="fig29"></a>
 {{<figure src="../figure29.png" link="../figure29.png" caption="__FIGURE 29__.&mdash; Orthographic projection. (A) Polar aspect. (B) Equatorial aspect, approximately the view of the Moon, Mars, and outer planets as seen from the Earth. (C) Oblique aspect, centered at 40° N., giving the classic globelike view.">}}
 
 ## USAGE
