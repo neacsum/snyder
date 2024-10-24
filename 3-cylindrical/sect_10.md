@@ -76,7 +76,7 @@ and the X axis lies along the central line, $x$ increasing easterly. The transfo
 
 1. Given a central point $(\phi_z,\lambda_z)$ with longitude increasing easterly and relative to Greenwich, and azimuth $\gamma$ east of north of the central line through $(\phi_z,\lambda_z)$, the pole of the oblique transformation at $(\phi_p,\lambda_p)$ may be calculated as follows:
 {{<math tag="9-7">}} \phi_p = \arcsin(\cos\phi_z\sin\gamma){{</math>}}
-{{<math tag="9-8">}} \lambda_p = \arctan[-\cos\beta(-\sin\phi_z\sin\gamma)]+ \lambda_z {{</math>}}
+{{<math tag="9-8">}} \lambda_p = \arctan[-\cos\gamma/(-\sin\phi_z\sin\gamma)]+ \lambda_z {{</math>}}
 These values of $\phi_p$ and $\lambda_p$, may then be used in equations (10-4) and (10-5) as before.
 
 _For the inverse formulas_, first for the normal aspect, given $R, \phi_s, \lambda_0, x,$ and $y$,
